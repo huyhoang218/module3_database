@@ -94,7 +94,7 @@ create table Accompanied_Services(
     id_accompanied_service int primary key ,
     name_accompanied_service varchar(45),
     price double,
-    unit int,
+    unit varchar(45),
     status varchar(45)
 );
 
